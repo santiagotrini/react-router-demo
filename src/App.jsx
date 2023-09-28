@@ -1,4 +1,5 @@
 import './App.css'
+import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 export default function App() {
   const [cosas, setCosas] = useState([]);
@@ -31,7 +32,7 @@ export default function App() {
       <pre>[
         {cosas.map((c,i) => <span key={i}> {c} </span>)}
       ]</pre>
-      <a href="/lista">Ir a pagina de lista</a>
+      <Link to="/markdown">Ir a pagina de Markdown</Link>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import Lista from './Lista.jsx'
+import Texto from './Texto.jsx'
 import './index.css'
 import { 
   BrowserRouter, 
@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route exact path='/' element={<App />} />
-        <Route exact path='/lista' element={<Lista />} />
+        <Route exact path='/Markdown' element={<Texto />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,
