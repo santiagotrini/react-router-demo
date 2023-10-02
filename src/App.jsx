@@ -33,6 +33,7 @@ export default function App() {
         {cosas.map((c,i) => <span key={i}> {c} </span>)}
       ]</pre>
       <Link to="/markdown">Ir a pagina de Markdown</Link>
+      <p>Voy a commitear desde github.dev</p>
     </div>
   );
 }
